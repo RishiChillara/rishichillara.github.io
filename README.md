@@ -1,3 +1,4 @@
-A website to bring together everything I might want to show to others
+A personal website to bring together everything everything that I have worked on in the past.
 
-In Progress: Portfolio and Artwork Section
+TODO:
+Additions: More Fluid Opening Animations
