@@ -12,7 +12,7 @@ const flowChart = {"start" : {"prompt": "You wake up in your cell. It is early i
                    
                    "go to warden's office": {"prompt": "You walk in to the warden's office to find it empty. What do you do?", "choices": ["steal uniform", "steal keys"], "gif": "images/walkingOutDoor"},
                    
-                   "head down main corridor": {"prompt": "You sneakily walk down the main corridor and find a fork in the hallway.", "choices": ["go to warden's office", "go to mess hall", "go to security office"], "gif": "images/walkingOutDoor"},
+                   "head down main corridor": {"prompt": "You sneakily walk down the main corridor and find a fork in the hallway.", "choices": ["go to warden's office", "go to mess hall"], "gif": "images/walkingOutDoor"},
                    
                    "go to mess hall": {"prompt": "You arrive in the empty mess hall.", "choices": ["steal food", "steal utensil", "hide in closet"], "gif": "images/walkingOutDoor"},
                    
@@ -22,7 +22,7 @@ const flowChart = {"start" : {"prompt": "You wake up in your cell. It is early i
 
                    "attack guard": {"prompt": "You successfully fight off the guard and head see that the warden's office is straight ahead. Boldy you step in. It is empty. What do you do?", "choices": ["steal uniform", "steal keys"], "gif": "images/deathSkull"},
                    
-                   "steal keys": {"prompt": "You steal the keys and unlock the door to the security office. It is empty.", "choices": ["disable cams", "open all cells", "call cell mate on walkie-talkie"], "gif":"images/key.gif"}
+                   "steal keys": {"prompt": "You steal the keys and unlock the door to the security office. It is empty.", "choices": ["disable cams", "open all cells"], "gif":"images/key.gif"}
                                                          
                 };
 
