@@ -1,0 +1,44 @@
+/* .my-container{
+  border-style: dotted;
+}
+.my-row{
+  border-color: blue;
+  border-style: dotted;
+}
+.my-col{
+  border-color: green;
+  border-style: dotted;
+} */
+
+.caption {
+  position: absolute;
+  top: 88%;
+  left: -20%;
+  width: 100%;
+}
+
+.thumbnail {
+  position: relative;
+}
+.height-wrapper {
+  min-height:auto;  
+}
+.btn-group-vertical > button{
+  margin-bottom:10px;
+  border-radius:5px !important;
+}
+@media (min-width: 768px) {
+  .height-wrapper {
+      min-height: 100vh;  
+  }
+
+  
+  .caption {
+    position: absolute;
+    top: 88%;
+    left: -15%;
+    width: 100%;
+  }
+
+
+}
